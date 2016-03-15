@@ -1,0 +1,181 @@
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+	<title>Police deaths in the UK (another approach)</title>
+	<meta name="description" content="">
+
+	<link href="http://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../assets/css/font-awesome.min.css?v=840c8ff11e">
+	<link rel="stylesheet" href="../assets/css/screen.css?v=840c8ff11e">
+
+	<link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="dataaa.net">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Police deaths in the UK (another approach)">
+    <meta property="og:description" content="After yesterday's discovery that the adjusted rate of deaths following contact with the England &amp;amp; Wales police forces was higher than that in the US, I set out to try to verify this information. As I stated yesterday, there is no systematic, reliable record of deaths caused by the police">
+    <meta property="og:url" content="http://localhost:2368/police-deaths-in-the-uk-another-approach/">
+    <meta property="article:published_time" content="2015-07-31T15:43:50.845Z">
+    <meta property="article:modified_time" content="2015-07-31T15:43:50.841Z">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Police deaths in the UK (another approach)">
+    <meta name="twitter:description" content="After yesterday's discovery that the adjusted rate of deaths following contact with the England &amp;amp; Wales police forces was higher than that in the US, I set out to try to verify this information. As I stated yesterday, there is no systematic, reliable record of deaths caused by the police">
+    <meta name="twitter:url" content="http://localhost:2368/police-deaths-in-the-uk-another-approach/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "dataaa.net",
+    "author": {
+        "@type": "Person",
+        "name": "Paul W",
+        "url": "http://localhost:2368/author/paul/"
+    },
+    "headline": "Police deaths in the UK (another approach)",
+    "url": "http://localhost:2368/police-deaths-in-the-uk-another-approach/",
+    "datePublished": "2015-07-31T15:43:50.845Z",
+    "dateModified": "2015-07-31T15:43:50.841Z",
+    "description": "After yesterday&#x27;s discovery that the adjusted rate of deaths following contact with the England &amp;amp; Wales police forces was higher than that in the US, I set out to try to verify this information. As I stated yesterday, there is no systematic, reliable record of deaths caused by the police"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="dataaa.net" href="../rss/index.html">
+</head>
+<body class="post-template">
+
+	
+
+<nav>
+	<div class="toggle-menu">
+	    <div id="icon">
+	        <div class="one"></div>
+	        <div class="two"></div>
+	        <div class="three"></div>
+			<div class="four"></div>
+	    </div>
+
+	    <div id="menu">
+	        <ul>
+		    <li>
+					<a href="http://www.linkedin.com/in/paulmwoods"><span><i class="fa fa-linkedin"></i></span> Linkedin</a>
+	        </li>
+		    <li>
+	            	<a href="http://www.twitter.com/dr_paul_woods"><span><i class="fa fa-twitter"></i></span> Twitter</a> 
+	            </li>
+	            <li>
+	            	<a href="http://www.github.com/dataaa"><span><i class="fa fa-github"></i></span> Github</a>
+	            </li>
+	            <li>
+	            	<a href="../rss/index.rss"><span><i class="fa fa-rss"></i></span> RSS</a>
+	            </li>                
+	        </ul>
+	    </div> 
+	 </div>
+</nav>
+
+<header class="main-header " style="background-image: url(../content/images/2015/06/dataaa_darkness-2.jpg)">
+	<figure class="logo">
+		<a href="../"><img class="img-logo" src="../content/images/2015/06/dataaa_logo_trim.png" alt="Blog logo: Dataaa"></a>
+	</figure>
+	<div class="title">
+		<a href="../">
+			<h1>dataaa.net</h1>
+		</a>
+		<p>Technical musings of Paul Woods</p>
+	</div>
+</header>
+
+<section class="posts">
+
+		<article class="post">
+			<div class="inner">
+				<header class="header-post">
+					<span class="meta-post">
+						<time datetime="2015-07-31">31 Jul 2015</time>
+					</span>
+					<h2 class="title-post">Police deaths in the UK (another approach)</h2>
+				</header>
+				
+				<section class="content-post">
+					<p>After yesterday's discovery that <a href="http://dataaa.github.io/police-deaths-in-the-uk/">the adjusted rate of deaths following contact with the England &amp; Wales police forces was higher than that in the US</a>, I set out to try to verify this information. As I stated yesterday, there is no systematic, reliable record of deaths caused by the police in the USA, and any attempts to start such a record have not been supported by individual police departments. </p>
+
+<p>I found a website called <a href="http://www.killedbypolice.net">www.killedbypolice.net</a>, where some diligent person or persons have been recording police-caused deaths since 1 May 2013. Each reported death is backed up by a link to a media website. After much wrangling (much messy HTML!) I extracted this information using <strong>R</strong> and plotted it with my previous data, this time just for the period from 1 May 2013 until today (normalising as necessary). <br>
+<img src="../content/images/2015/07/policeScaledDeathRateNoSuic2-1.png" alt="">
+This view paints a different picture: it shows that the death rate for English &amp; Welsh police is similar to that reported on Wikipedia for US police. It also shows that there are more than twice as many killings reported on killedbypolice.net as on Wikipedia. 4.6 more people per million have been killed by US police compared to UK police, over the last two years, and <em>you are more than three times as likely to be killed by a police officer in the US than in the UK</em>.</p>
+				</section>
+
+				<footer class="footer-post">
+
+					<section class="author-post">
+
+						<div class="bio">
+							<span>Autor</span>
+							<h4 class="author-name">
+								<a href="../author/paul/">Paul W</a>
+							</h4>
+						</div>
+					</section>
+
+					<section class="share">
+						<h4>Share</h4>
+						<a href="https://twitter.com/share?text=Police%20deaths%20in%20the%20UK%20(another%20approach)&amp;url=http://localhost:2368/police-deaths-in-the-uk-another-approach/" class="fa fa-twitter" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+							<span class="hidden">Twitter</span>
+						</a>
+
+						<a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/police-deaths-in-the-uk-another-approach/" class="fa fa-facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+							<span class="hidden">Facebook</span>
+						</a>
+
+						<a href="https://plus.google.com/share?url=http://localhost:2368/police-deaths-in-the-uk-another-approach/" class="fa fa-google-plus" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+							<span class="hidden">Google+</span>
+						</a>
+					</section>
+				</footer>
+
+				<section class="comments-post">
+					<!-- Disqus Comments -->
+					
+				</section>
+
+			</div>
+		</article>
+	</section>
+
+
+	<footer class="blog-footer">
+		<div class="inner">
+			<p>All content is (c) 2015 Paul Woods. Published with <a href="http://ghost.org">Ghost.</a></p>
+		</div>
+	</footer>
+
+	<!-- You can safely delete this line if your theme does not require jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+	<script>
+
+		//Menu Toggle
+		$("#icon").click(function() {
+		    $(this).toggleClass("active");
+	        $("#menu").fadeToggle();
+        });
+
+		//Code Highlighter
+        $(document).ready(function() {
+          $('pre code').each(function(i, block) {
+            hljs.highlightBlock(block);
+          });
+        });
+
+        //Google Analytics
+
+	</script>
+	
+</body>
